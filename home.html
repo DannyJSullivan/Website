@@ -1,0 +1,75 @@
+<HTML>
+	<link rel="stylesheet" type="text/css" href="homeCSS.css">
+	<title>
+		Danny Sullivan's Website
+	</title>
+	<p>
+		<center>
+			<h1>Danny Sullivan</h1>
+			<h2>Computer Science</h2>
+			<h3>Worcester Polytechnic Institute</h3>
+		</center>
+	</p>
+
+<div class = "tabs">
+	<input type="radio" name="tabs" id="tab1" checked>
+	<label for="tab1">
+		<i class = "fa fa-html5"></i><span>Home</span>
+	</label>
+
+	<input type = "radio" name = "tabs" id = "tab2">
+	<label for = "tab2">
+		<i class = "fa fa-css3"></i><span>Programming</span>
+	</label>
+
+	<input type = "radio" name = "tabs" id = "tab3">
+	<label for = "tab3">
+		<i class = "fa fa-code"></i><span>Video Production</span>
+	</label>
+
+	<input type = "radio" name = "tabs" id = "tab4">
+	<label for = "tab4">
+		<i class = "fa fa-code"></i><span>About</span>
+	</label>
+
+	<input type = "radio" name = "tabs" id = "tab5">
+	<label for = "tab5">
+		<i class = "fa fa-code"></i><span>Contact</span>
+	</label>
+
+	<div id = "tab-content1" class = "tab-content">
+		<h1><u><center>Home</center></u></h1>
+		<p>put info here</p>
+	</div>
+
+	<div id = "tab-content2" class = "tab-content">
+		<h1><u><center>Programming</center></u></h1>
+		<p>put info here</p>
+	</div>
+
+	<div id = "tab-content3" class = "tab-content">
+		<h1><u><center>Video Production</center></u></h1>
+		<p>put info here</p>
+	</div>
+
+	<div id = "tab-content4" class = "tab-content">
+		<h1><u><center>About</center></u></h1>
+		<p>put info here</p>
+	</div>
+
+	<div id = "tab-content5" class = "tab-content">
+		<h1><u><center>Contact</center></u></h1>
+		<!--<p>put info here</p>-->
+		<form action="contactMe.php" method = "post">
+			Name: <input type="text" name = "name"><br>
+			E-Mail: <input type="text" name = "email"><br>
+			Subject: <input type="text" name = "subject"><br>
+			Message: <input type="text" name = "message"><br>
+			<input type="submit" value= "Send"><br>
+		</form>
+	</div>
+</div>
+
+</script>
+
+</HTML>
