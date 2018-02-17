@@ -2,6 +2,33 @@ body{
 	background-color: grey;
 }
 
+h1 {
+    margin: 0;
+    padding: 5px;
+}
+
+h2 {
+    margin: 0;
+    padding: 5px;
+}
+
+h3 {
+    margin: 0;
+    padding: 5px;
+}
+
+a:link{
+    color: #030f69;
+}
+
+a:visited{
+    color: #030f69;
+}
+
+a:active{
+    color: white;
+}
+
 .tabs {
     max-width: 100%;
     float: none;
@@ -50,9 +77,9 @@ body{
 }
 
 .tabs label:hover {
-    color: #030f69;
-    box-shadow: inset 0 4px #030f69;
-    border-bottom: 4px solid #030f69;
+    color: #ffffff;
+    box-shadow: inset 0 4px #ffffff;
+    border-bottom: 4px solid #ffffff;
 }
 
 .tab-content {
@@ -87,9 +114,9 @@ body{
 
 .tabs [id^="tab"]:checked + label {
     background: darkgrey;
-    box-shadow: inset 0 4px #030f69;
-    border-bottom: 4px solid #030f69;
-    color: #030f69;
+    box-shadow: inset 0 4px #ffffff;
+    border-bottom: 4px solid #ffffff;
+    color: #ffffff;
 }
 
 #tab1:checked ~ #tab-content1,

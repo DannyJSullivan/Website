@@ -11,65 +11,73 @@
 		</center>
 	</p>
 
-<div class = "tabs">
-	<input type="radio" name="tabs" id="tab1" checked>
-	<label for="tab1">
-		<i class = "fa fa-html5"></i><span>Home</span>
-	</label>
+	<div class = "tabs">
+		<input type="radio" name="tabs" id="tab1" checked>
+		<label for="tab1">
+			<i class = "fa fa-html5"></i><span>Home</span>
+		</label>
 
-	<input type = "radio" name = "tabs" id = "tab2">
-	<label for = "tab2">
-		<i class = "fa fa-css3"></i><span>Programming</span>
-	</label>
+		<input type = "radio" name = "tabs" id = "tab2">
+		<label for = "tab2">
+			<i class = "fa fa-css3"></i><span>Programming</span>
+		</label>
 
-	<input type = "radio" name = "tabs" id = "tab3">
-	<label for = "tab3">
-		<i class = "fa fa-code"></i><span>Video Production</span>
-	</label>
+		<input type = "radio" name = "tabs" id = "tab3">
+		<label for = "tab3">
+			<i class = "fa fa-code"></i><span>Video Production</span>
+		</label>
 
-	<input type = "radio" name = "tabs" id = "tab4">
-	<label for = "tab4">
-		<i class = "fa fa-code"></i><span>About</span>
-	</label>
+		<input type = "radio" name = "tabs" id = "tab4">
+		<label for = "tab4">
+			<i class = "fa fa-code"></i><span>About</span>
+		</label>
 
-	<input type = "radio" name = "tabs" id = "tab5">
-	<label for = "tab5">
-		<i class = "fa fa-code"></i><span>Contact</span>
-	</label>
+		<input type = "radio" name = "tabs" id = "tab5">
+		<label for = "tab5">
+			<i class = "fa fa-code"></i><span>Contact</span>
+		</label>
 
-	<div id = "tab-content1" class = "tab-content">
-		<h1><u><center>Home</center></u></h1>
-		<p>put info here</p>
+		<div id = "tab-content1" class = "tab-content">
+			<h1><u><center>Home</center></u></h1>
+			<p>Welcome to my website! This site is a constant work in progress, as I expand further into testing new elements. This website is currently composed of HTML, CSS, and PHP. Here is where I will keep a log of every big change that occurs on the site.</p>
+		</div>
+
+		<div id = "tab-content2" class = "tab-content">
+			<h1><u><center>Programming</center></u></h1>
+			<p>put info here</p>
+		</div>
+
+		<div id = "tab-content3" class = "tab-content">
+			<h1><u><center>Video Production</center></u></h1>
+			<p>put info here</p>
+		</div>
+
+		<div id = "tab-content4" class = "tab-content">
+			<h1><u><center>About</center></u></h1>
+			<p><img src="me.jpg" alt="Prom, 2016" title="Me at senior prom, 2016" width="177" height="294.3" align="right"/>I am a Computer Science major at Worcester Polytechnic Institute, on track for a Bachelors of Science Degree, with a strong interest in pursuing cyber security. I am currently a Sophomore and on track to graduate in May of 2020. </p> 
+			<p>Throughout my life, I have had a passion for computers, following in the steps of my father. Computers have always been a big part of my life, and figuring out how they and the software works has been an interest of mine since I was a child. I did not begin programming until my senior year of high school, but I always have known I have wanted to do it.</p>
+			<p>Alongside my interest in computers, I also have a strong interest in video production and film. For just about the same time I found myself interested in computers, I found myself interested in making videos. I have been producing videos for most of my life, and utilized that skill throughout high school, being a part of the daily morning news team and winning several awards for my journalism stories.</p>
+			<p>Here are some other links of mine that may interest you: </p>
+			<p><a href="https://github.com/DannyJSullivan" target="_blank >Github</a></p>
+			<p><a href="https://www.youtube.com/channel/UCtVSlJJP2nkyymFVMGKRo4g" target="_blank">YouTube</a></p>
+			<p><a href="https://www.linkedin.com/in/danieljamessullivan/" target="_blank">LinkedIn</a></p>
+		</div>
+
+		<div id = "tab-content5" class = "tab-content">
+			<h1><u><center>Contact</center></u></h1>
+			<!--<p>put info here</p>-->
+			<form action="contactMe.php" method = "post">
+				Name: <input type="text" name = "name"><br>
+				E-Mail: <input type="text" name = "email"><br>
+				Subject: <input type="text" name = "subject"><br>
+				Message: <input type="text" name = "message"><br>
+				<input type="submit" value= "Send"><br>
+			</form>
+			<p><a href="mailto:djsullivan@wpi.edu">Send me an E-Mail!</a><p>
+			<p><a href="https://www.linkedin.com/in/danieljamessullivan/" target="_blank">Connect with me on LinkedIn!</a></p>
+		</div>
 	</div>
 
-	<div id = "tab-content2" class = "tab-content">
-		<h1><u><center>Programming</center></u></h1>
-		<p>put info here</p>
-	</div>
-
-	<div id = "tab-content3" class = "tab-content">
-		<h1><u><center>Video Production</center></u></h1>
-		<p>put info here</p>
-	</div>
-
-	<div id = "tab-content4" class = "tab-content">
-		<h1><u><center>About</center></u></h1>
-		<p>put info here</p>
-	</div>
-
-	<div id = "tab-content5" class = "tab-content">
-		<h1><u><center>Contact</center></u></h1>
-		<!--<p>put info here</p>-->
-		<form action="contactMe.php" method = "post">
-			Name: <input type="text" name = "name"><br>
-			E-Mail: <input type="text" name = "email"><br>
-			Subject: <input type="text" name = "subject"><br>
-			Message: <input type="text" name = "message"><br>
-			<input type="submit" value= "Send"><br>
-		</form>
-	</div>
-</div>
-
-</script>
+	</script>
 
 </HTML>
