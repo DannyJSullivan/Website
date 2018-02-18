@@ -1,12 +1,12 @@
 <?php
 
 $field_name = $_POST['name'];
-$field_name = $_POST['email'];
-$field_name = $_POST['subject']
-$field_name = $_POST['message'];
+$field_email = $_POST['email'];
+//$field_name = $_POST['subject']
+$field_message = $_POST['message'];
 
 $mail_to = 'djsullivan@wpi.edu';
-$subject = $subject .$field_name;
+$subject = 'Message from website: ' .$field_name;
 
 $body_message =  'From: '.$field_name."\n";
 $body_message .= 'E-mail: '.$field_email."\n";
