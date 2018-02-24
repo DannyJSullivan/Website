@@ -24,6 +24,11 @@ p {
     font-family: sans-serif;
 }
 
+li {
+    font-family: sans-serif;
+    padding-bottom: 5px; 
+}
+
 a:link{
     color: #030f69;
 }
