@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.textBox {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 0px;
+  background-color: lightgrey;
+  border: 5px solid #333;
+  border-top: 0px;
+}
+
+header {
+  background: #333;
+}
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.logo {
+  float: left;
+  padding: 10px 0;
+}
+
+ul {
+  margin-left: 5%;
+}
+
+nav {
+  float: right;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 20px;
+  padding-top: 15px;
+
+  position: relative;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+nav a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: white;
+  position: absolute;
+  top: 0;
+  width: 0%;
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+  width: 100%;
+}
+
+p {
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 3%;
+  margin-bottom: 1%;
+  line-height: 30px;
+}
